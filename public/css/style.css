@@ -130,13 +130,9 @@ body {
           height: 500px;
           margin: 60px auto;
           text-align: center; }
-          body #main .inner_top h2 {
-            text-align: center;
-            color: #fff; }
           body #main .inner_top button {
             text-align: center;
-            position: absolute;
-            bottom: 10em; }
+            width: 240px; }
             body #main .inner_top button img {
               width: 100%; }
         body #main .inner_q {
@@ -148,6 +144,19 @@ body {
           border: 2px #fff solid; }
           body #main .inner_q h2 {
             text-align: center;
+            color: #fff;
+            margin-top: 16px; }
+          body #main .inner_q .question_e {
+            color: #fff;
+            text-align: center;
+            margin-top: 16px;
+            font-size: 14px; }
+          body #main .inner_q .question_j {
+            color: #fff;
+            text-align: center;
+            font-size: 12px; }
+          body #main .inner_q .question_button {
+            text-decoration: none;
             color: #fff; } }
 
 footer {

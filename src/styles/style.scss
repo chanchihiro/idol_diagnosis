@@ -56,14 +56,9 @@ body {
 				height: 500px;
 				margin: 60px auto ;
 				text-align: center;
-				h2 {
-					text-align: center;
-					color: #fff;
-				}
 				button {
 					text-align: center;
-					position: absolute;
-					bottom: 10em;
+					width: 240px;
 					img {
 						width: 100%;
 					}
@@ -79,6 +74,23 @@ body {
 				h2 {
 					text-align: center;
 					color: #fff;
+					margin-top: 16px;
+				}
+				.question_e {
+					color: #fff;
+					text-align: center;
+					margin-top: 16px;
+					font-size: 14px;
+				}
+				.question_j {
+					color: #fff;
+					text-align: center;
+					font-size: 12px;
+				}
+				.question_button {
+					text-decoration: none;
+					color: #fff;
+
 				}
 			}
 		}

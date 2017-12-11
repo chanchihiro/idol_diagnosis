@@ -24720,6 +24720,8 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _reactRouterDom = require('react-router-dom');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -24746,7 +24748,35 @@ var Q1 = function (_React$Component) {
 				_react2.default.createElement(
 					'h2',
 					null,
-					'\u30A2\u30A4\u30C9\u30EB\u8A3A\u65AD\uFF01'
+					'Question.1'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'Which is it if you go?'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_j' },
+					'\u884C\u304F\u306A\u3089\u3069\u3063\u3061\uFF1F'
+				),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/Q2-1' },
+						'\u5C71'
+					)
+				),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/Q2-2' },
+						'\u5DDD'
+					)
 				)
 			);
 		}
@@ -24757,7 +24787,7 @@ var Q1 = function (_React$Component) {
 
 exports.default = Q1;
 
-},{"react":220,"react-dom":43}],229:[function(require,module,exports){
+},{"react":220,"react-dom":43,"react-router-dom":181}],229:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
