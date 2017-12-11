@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-  <div>
-    <header>テストテスト</header>
+  <div className="header">
+    <header>これはヘッダーです</header>
     <menu>
       <ul>
         <li><Link to="/">Home</Link></li>

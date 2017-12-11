@@ -24539,7 +24539,6 @@ var App = function App() {
   return _react2.default.createElement(
     'div',
     null,
-    _react2.default.createElement(_Header2.default, null),
     _react2.default.createElement(_Main2.default, null)
   );
 };
@@ -24564,11 +24563,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Header = function Header() {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'header' },
     _react2.default.createElement(
       'header',
       null,
-      '\u30C6\u30B9\u30C8\u30C6\u30B9\u30C8'
+      '\u3053\u308C\u306F\u30D8\u30C3\u30C0\u30FC\u3067\u3059'
     ),
     _react2.default.createElement(
       'menu',
@@ -24656,6 +24655,8 @@ var _reactDom = require('react-dom');
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _reactRouterDom = require('react-router-dom');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -24678,8 +24679,21 @@ var Home = function (_React$Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				'home'
+				{ className: 'inner_top' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u30A2\u30A4\u30C9\u30EB\u8A3A\u65AD\uFF01'
+				),
+				_react2.default.createElement(
+					'button',
+					null,
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ to: '/Q1' },
+						_react2.default.createElement('img', { src: './img/button.png' })
+					)
+				)
 			);
 		}
 	}]);
@@ -24689,7 +24703,7 @@ var Home = function (_React$Component) {
 
 exports.default = Home;
 
-},{"react":220,"react-dom":43}],228:[function(require,module,exports){
+},{"react":220,"react-dom":43,"react-router-dom":181}],228:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -24728,8 +24742,12 @@ var Q1 = function (_React$Component) {
 		value: function render() {
 			return _react2.default.createElement(
 				'div',
-				null,
-				'Qiestion 1'
+				{ className: 'inner_q' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u30A2\u30A4\u30C9\u30EB\u8A3A\u65AD\uFF01'
+				)
 			);
 		}
 	}]);

@@ -5,7 +5,6 @@ import Header from './Header.js';
 
 const App= () => (
   <div>
-    <Header />
     <Main />
   </div>
 );
