@@ -7,30 +7,46 @@ body {
 	font-family: "yugothic";
 	font-weight: bold;
 	font-size: 14px;
-	background-color: #fff;
+	background-color: #e4dac7;
 	color: $black;
 	@include max-screen($breakpoint-mobile) {
 		font-size: 12px;
 	}
+	.pcView {
+		text-align: center;
+		padding-top: 12em;
+		img {
+			width: 100px;
+			margin-top: 20px;
+		}
+		@include max-screen($breakpoint-mobile) {
+			display: none;
+		}
+	}
 	#main {
-		overflow: hidden;
-		background-image: url(../img/bg_idol.png);
-		background-size: 220%;
-		background-position: center 0;
-		height: 100vh;
-		width: 100%;
-		#about {
-			width: 300px;
-			margin: 0 auto;
-			text-align: center;
-			margin-top: 200px;
-			h2 {
-				padding-bottom: 8px;
-				font-size: 20px;
-			}
-			h3 {
-				font-size: 16px;
-				padding-bottom: 8px;
+		display: none;
+		@include max-screen($breakpoint-mobile) {
+			display: block;
+			font-size: 12px;
+			overflow: hidden;
+			background-image: url(../img/bg_idol.png);
+			background-size: 220%;
+			background-position: center 0;
+			height: 100vh;
+			width: 100%;
+			#about {
+				width: 300px;
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 200px;
+				h2 {
+					padding-bottom: 8px;
+					font-size: 20px;
+				}
+				h3 {
+					font-size: 16px;
+					padding-bottom: 8px;
+				}
 			}
 		}
 	}
