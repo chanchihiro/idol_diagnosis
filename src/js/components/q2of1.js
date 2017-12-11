@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { Link } from 'react-router-dom';
 
 
-class Q2-1 extends React.Component {
+class Q2of1 extends React.Component {
 	render() {
 		return(
 			<div className="inner_q">
@@ -17,4 +17,4 @@ class Q2-1 extends React.Component {
 	}
 }
 
-export default Q2-1
+export default Q2of1
