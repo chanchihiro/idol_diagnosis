@@ -24775,7 +24775,7 @@ var Q1 = function (_React$Component) {
 					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/Q2of1' },
+						{ className: 'question_button_text', to: '/Q2of1' },
 						'\u5C71'
 					)
 				),
@@ -24784,7 +24784,7 @@ var Q1 = function (_React$Component) {
 					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/Q2of2' },
+						{ className: 'question_button_text', to: '/Q2of2' },
 						'\u5DDD'
 					)
 				)
@@ -24847,29 +24847,29 @@ var Q2of1 = function (_React$Component) {
 				_react2.default.createElement(
 					'p',
 					{ className: 'question_e' },
-					'Which is it if you go?'
+					'Which is it if you spend in holiday?'
 				),
 				_react2.default.createElement(
 					'p',
 					{ className: 'question_j' },
-					'\u884C\u304F\u306A\u3089\u3069\u3063\u3061\uFF1F'
+					'\u4F11\u65E5\u904E\u3054\u3059\u306A\u3089\u3069\u3063\u3061\uFF1F'
 				),
 				_react2.default.createElement(
 					'button',
-					null,
+					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/' },
-						'\u5C71'
+						{ className: 'question_button_text', to: '/' },
+						'\u53CB\u9054'
 					)
 				),
 				_react2.default.createElement(
 					'button',
-					null,
+					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/' },
-						'\u5DDD'
+						{ className: 'question_button_text', to: '/' },
+						'\u4E00\u4EBA'
 					)
 				)
 			);
@@ -24931,29 +24931,29 @@ var Q2of2 = function (_React$Component) {
 				_react2.default.createElement(
 					'p',
 					{ className: 'question_e' },
-					'Which is it if you go?'
+					'Which do you like'
 				),
 				_react2.default.createElement(
 					'p',
 					{ className: 'question_j' },
-					'\u884C\u304F\u306A\u3089\u3069\u3063\u3061\uFF1F'
+					'\u3069\u3063\u3061\u304C\u597D\u304D\uFF1F'
 				),
 				_react2.default.createElement(
 					'button',
-					null,
+					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/' },
-						'\u5C71'
+						{ className: 'question_button_text', to: '/' },
+						'\u30A4\u30F3\u30C9\u30A2'
 					)
 				),
 				_react2.default.createElement(
 					'button',
-					null,
+					{ className: 'question_button' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
-						{ to: '/' },
-						'\u5DDD'
+						{ className: 'question_button_text', to: '/' },
+						'\u30A2\u30A6\u30C8\u30C9\u30A2'
 					)
 				)
 			);

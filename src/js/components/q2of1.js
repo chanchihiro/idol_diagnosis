@@ -8,10 +8,10 @@ class Q2of1 extends React.Component {
 		return(
 			<div className="inner_q">
 				<h2>Question.2</h2>
-				<p className="question_e">Which is it if you go?</p>
-				<p className="question_j">行くならどっち？</p>
-				<button><Link to="/">山</Link></button>
-				<button><Link to="/">川</Link></button>
+				<p className="question_e">Which is it if you spend in holiday?</p>
+				<p className="question_j">休日過ごすならどっち？</p>
+				<button className="question_button"><Link className="question_button_text" to="/">友達</Link></button>
+				<button className="question_button"><Link className="question_button_text" to="/">一人</Link></button>
 			</div>
 		)
 	}

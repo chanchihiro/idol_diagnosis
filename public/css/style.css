@@ -154,10 +154,23 @@ body {
           body #main .inner_q .question_j {
             color: #fff;
             text-align: center;
-            font-size: 12px; }
+            font-size: 12px;
+            margin-bottom: 30px; }
           body #main .inner_q .question_button {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            background-color: #f2f700;
+            margin-top: 8px;
+            padding: 12px 0px;
+            border-radius: 4px;
+            border: none; }
+          body #main .inner_q .question_button_text {
             text-decoration: none;
-            color: #fff; } }
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 16px 0px; } }
 
 footer {
   width: 100%;
