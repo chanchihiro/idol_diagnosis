@@ -10,8 +10,10 @@ class Q2of2 extends React.Component {
 				<h2>Question.2</h2>
 				<p className="question_e">Which do you like</p>
 				<p className="question_j">どっちが好き？</p>
-				<button className="question_button"><Link className="question_button_text" to="/">インドア</Link></button>
-				<button className="question_button"><Link className="question_button_text" to="/">アウトドア</Link></button>
+				<div className="buttons">
+					<button className="question_button"><Link className="question_button_text" to="/Q3of3">インドア</Link></button>
+					<button className="question_button"><Link className="question_button_text" to="/Q3of4">アウトドア</Link></button>
+				</div>
 			</div>
 		)
 	}
