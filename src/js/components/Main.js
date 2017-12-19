@@ -9,6 +9,7 @@ import Q3of3 from './q3of3';
 import Q3of4 from './q3of4';
 import Home from './home';
 import Nogizaka from './nogizaka';
+import CSSTransitionGroup from 'react-transition-group';
 
 
 const Main = () => (
