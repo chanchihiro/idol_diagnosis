@@ -2,6 +2,7 @@
 @import "lib/base";
 @import "lib/layout";
 @import "lib/mixins"; //ブレイクポイントの設定
+@import "lib/reset";
 
 body {
 	font-family: "yugothic";
@@ -39,7 +40,7 @@ body {
 				width: 300px;
 				margin: 0 auto;
 				text-align: center;
-				margin-top: 100px;
+				margin-top: 60px;
 				color: #fff;
 				text-shadow: 0 0 20px #f2f700;
 				h2 {
@@ -52,13 +53,22 @@ body {
 				}
 			}
 			.inner_top {
-				width: 320px;
+				width: 100%;
 				height: 500px;
-				margin: 60px auto ;
+				margin: 30px auto ;
 				text-align: center;
+				#logo {
+					width: 94%;
+					margin-top: 8rem;
+				}
 				button {
 					text-align: center;
 					width: 240px;
+					position: absolute;
+					bottom: 100px;
+					left: 0;
+					right: 0;
+					margin: auto;
 					img {
 						width: 100%;
 					}
@@ -113,19 +123,18 @@ body {
 
 footer {
 	width: 100%;
-	background-color: #000;
 	color: $white;
 	position: absolute;
 	bottom: 0;
 	padding: 10px 0px 8px;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f2f700, 0 0 35px #f2f700, 0 0 40px #f2f700, 0 0 50px #f2f700, 0 0 75px #f2f700;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f2f700, 0 0 35px #f2f700;
 	#menu {
-		width: 320px;
+		width: 240px;
 		margin: 0 auto;
 		margin-bottom: 8px;
 		a {
 			color: $white;
-			width: 106px;
+			width: 80px;
 			text-align: center;
 			display: inline-block;
 			text-decoration: none;

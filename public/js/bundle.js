@@ -24693,7 +24693,7 @@ var Home = function (_React$Component) {
 				_react2.default.createElement(
 					'h2',
 					null,
-					'\u30A2\u30A4\u30C9\u30EB\u8A3A\u65AD\uFF01'
+					_react2.default.createElement('img', { src: './img/logo.png', id: 'logo' })
 				),
 				_react2.default.createElement(
 					'button',
