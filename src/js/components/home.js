@@ -7,7 +7,7 @@ class Home extends React.Component {
 		return(
 			<div className="inner_top">
 				<h2><img src="./img/logo.png" id="logo" /></h2>
-				<button><Link to="/Q1"><img src="./img/button.png" /></Link></button>
+				<div id="start"><Link to="/Q1"><img src="./img/button.png" /></Link></div>
 			</div>
 		)
 	}

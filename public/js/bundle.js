@@ -24696,8 +24696,8 @@ var Home = function (_React$Component) {
 					_react2.default.createElement('img', { src: './img/logo.png', id: 'logo' })
 				),
 				_react2.default.createElement(
-					'button',
-					null,
+					'div',
+					{ id: 'start' },
 					_react2.default.createElement(
 						_reactRouterDom.Link,
 						{ to: '/Q1' },

@@ -141,18 +141,23 @@ legend {
 #yui3-css-stamp.cssreset {
   display: none; }
 
+html {
+  height: 100vh;
+  background-color: #000; }
+
 body {
   font-family: "yugothic";
   font-weight: bold;
   font-size: 14px;
-  background-color: #e4dac7;
+  background-color: #000;
   color: #292929; }
   @media screen and (max-width: 750px) {
     body {
       font-size: 12px; } }
   body .pcView {
     text-align: center;
-    padding-top: 12em; }
+    padding-top: 12em;
+    color: #fff; }
     body .pcView img {
       width: 100px;
       margin-top: 20px; }
@@ -193,7 +198,7 @@ body {
           body #main .inner_top #logo {
             width: 94%;
             margin-top: 8rem; }
-          body #main .inner_top button {
+          body #main .inner_top #start {
             text-align: center;
             width: 240px;
             position: absolute;
@@ -201,7 +206,7 @@ body {
             left: 0;
             right: 0;
             margin: auto; }
-            body #main .inner_top button img {
+            body #main .inner_top #start img {
               width: 100%; }
         body #main .inner_q {
           width: 320px;

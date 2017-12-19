@@ -4,11 +4,16 @@
 @import "lib/mixins"; //ブレイクポイントの設定
 @import "lib/reset";
 
+html {
+	height: 100vh;
+	background-color: #000;
+}
+
 body {
 	font-family: "yugothic";
 	font-weight: bold;
 	font-size: 14px;
-	background-color: #e4dac7;
+	background-color: #000;
 	color: $black;
 	@include max-screen($breakpoint-mobile) {
 		font-size: 12px;
@@ -16,6 +21,7 @@ body {
 	.pcView {
 		text-align: center;
 		padding-top: 12em;
+		color: #fff;
 		img {
 			width: 100px;
 			margin-top: 20px;
@@ -61,7 +67,7 @@ body {
 					width: 94%;
 					margin-top: 8rem;
 				}
-				button {
+				#start {
 					text-align: center;
 					width: 240px;
 					position: absolute;
