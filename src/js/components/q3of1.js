@@ -8,7 +8,7 @@ class Q3of1 extends React.Component {
 		return(
 			<div className="inner_q">
 				<h2>Question.3</h2>
-				<p className="question_e">Which do you like</p>
+				<p className="question_e">Speaking of a cake?</p>
 				<p className="question_j">ケーキといえば？</p>
 				<div className="buttons">
 					<button className="question_button"><Link className="question_button_text" to="/nogizaka">ショートケーキ</Link></button>
