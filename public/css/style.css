@@ -1,6 +1,6 @@
 @font-face {
-  font-family: copper;
-  src: url(../font/Copperplate.ttc) format("opentype"); }
+  font-family: gill;
+  src: url(../font/GillSans.ttc) format("opentype"); }
 
 * {
   padding: 0;
@@ -156,10 +156,10 @@ button {
           appearance: none; }
 
 body {
-  font-family: "yugothic";
-  font-weight: bold;
   font-size: 14px;
   background-color: #000;
+  font-family: 'gill', sans-serif;
+  font-family: "yugothic", sans-serif;
   color: #292929; }
   @media screen and (max-width: 750px) {
     body {
@@ -188,28 +188,35 @@ body {
         width: 100%;
         overflow: hidden; }
         body #main #about {
-          width: 300px;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
           margin: 0 auto;
           text-align: center;
-          margin-top: 60px;
+          padding-top: 80px;
           color: #fff;
-          text-shadow: 0 0 20px #f2f700; }
+          text-shadow: #2bea92 1px 1px 10px, #2bea92 -1px 1px 10px; }
           body #main #about h2 {
             padding-bottom: 8px;
             font-size: 20px; }
           body #main #about h3 {
             font-size: 16px;
             padding-bottom: 16px; }
-          body #main #about .text_english {
-            margin-bottom: 24px; }
-          body #main #about .text_contact {
-            margin-bottom: 20px; }
-          body #main #about a {
-            text-decoration: none;
-            color: #fff;
-            display: block;
-            text-align: center;
-            margin-top: 10px; }
+          body #main #about #about_text {
+            width: 300px;
+            margin: 0 auto; }
+            body #main #about #about_text .text_english {
+              margin-bottom: 24px; }
+            body #main #about #about_text .text_japan {
+              font-weight: bold; }
+            body #main #about #about_text .text_contact {
+              margin-bottom: 20px; }
+            body #main #about #about_text a {
+              text-decoration: none;
+              color: #fff;
+              display: block;
+              text-align: center;
+              margin-top: 10px; }
         body #main .inner_top {
           width: 100%;
           height: 500px;
@@ -270,8 +277,7 @@ footer {
   color: #fff;
   position: absolute;
   bottom: 0;
-  padding: 10px 0px 8px;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f2f700, 0 0 35px #f2f700; }
+  padding: 10px 0px 8px; }
   footer #menu {
     width: 240px;
     margin: 0 auto;

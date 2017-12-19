@@ -19,10 +19,10 @@ button{
 }
 
 body {
-	font-family: "yugothic";
-	font-weight: bold;
 	font-size: 14px;
 	background-color: #000;
+	font-family: 'gill', sans-serif;
+	font-family: "yugothic", sans-serif;
 	color: $black;
 	@include max-screen($breakpoint-mobile) {
 		font-size: 12px;
@@ -52,12 +52,14 @@ body {
 			width: 100%;
 			overflow: hidden;
 			#about {
-				width: 300px;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.6);
 				margin: 0 auto;
 				text-align: center;
-				margin-top: 60px;
+				padding-top: 80px;
 				color: #fff;
-				text-shadow: 0 0 20px #f2f700;
+				text-shadow:#2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
 				h2 {
 					padding-bottom: 8px;
 					font-size: 20px;
@@ -66,21 +68,25 @@ body {
 					font-size: 16px;
 					padding-bottom: 16px;
 				}
-				.text_english {
-					margin-bottom: 24px;
-				}
-				.text_contact {
-
-				}
-				.text_contact {
-					margin-bottom: 20px;
-				}
-				a {
-					text-decoration: none;
-					color: #fff;
-					display: block;
-					text-align: center;
-					margin-top: 10px;
+				#about_text {
+					width: 300px;
+					margin: 0 auto;
+					.text_english {
+						margin-bottom: 24px;
+					}
+					.text_japan {
+						font-weight: bold;
+					}
+					.text_contact {
+						margin-bottom: 20px;
+					}
+					a {
+						text-decoration: none;
+						color: #fff;
+						display: block;
+						text-align: center;
+						margin-top: 10px;
+					}
 				}
 			}
 			.inner_top {
@@ -158,7 +164,6 @@ footer {
 	position: absolute;
 	bottom: 0;
 	padding: 10px 0px 8px;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f2f700, 0 0 35px #f2f700;
 	#menu {
 		width: 240px;
 		margin: 0 auto;
