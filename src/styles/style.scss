@@ -202,6 +202,28 @@ body {
 	}
 }
 
+#header {
+	position: absolute;
+	top: 8px;
+	right: 6px;
+	#share_list {
+		ul {
+			width: 100%;
+			float: right;
+			li {
+				float: left;
+				margin-right: 12px;
+				a {
+					text-decoration: none;
+					color: #fff;
+					font-size: 20px;
+
+				}
+			}
+		}
+	}
+}
+
 footer {
 	width: 100%;
 	color: $white;
@@ -219,6 +241,7 @@ footer {
 			text-align: center;
 			display: inline-block;
 			text-decoration: none;
+			text-shadow:#2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
 		}
 	}
 	p {
