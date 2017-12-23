@@ -5,10 +5,12 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './components/App';
 
 
+window.onload = function () {
+	ReactDOM.render(
+	  <BrowserRouter>
+	    <App />
+	  </BrowserRouter>,
+	  document.getElementById("questions")
+	);
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("questions")
-);
+};

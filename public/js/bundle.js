@@ -26096,7 +26096,7 @@ var Home = function (_React$Component) {
 					_react2.default.createElement(
 						_reactRouterDom.Link,
 						{ to: '/Q1' },
-						_react2.default.createElement('img', { src: './img/button.png' })
+						_react2.default.createElement('img', { src: './img/btn1.png' })
 					)
 				)
 			);
@@ -26814,11 +26814,13 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(
-  _reactRouterDom.BrowserRouter,
-  null,
-  _react2.default.createElement(_App2.default, null)
-), document.getElementById("questions"));
+window.onload = function () {
+	_reactDom2.default.render(_react2.default.createElement(
+		_reactRouterDom.BrowserRouter,
+		null,
+		_react2.default.createElement(_App2.default, null)
+	), document.getElementById("questions"));
+};
 
 },{"./components/App":233,"react":229,"react-dom":46,"react-router-dom":184}]},{},[245])
 
