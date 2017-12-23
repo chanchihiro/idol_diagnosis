@@ -26088,7 +26088,7 @@ var Home = function (_React$Component) {
 				_react2.default.createElement(
 					'h2',
 					null,
-					_react2.default.createElement('img', { src: './img/logo.png', id: 'logo' })
+					_react2.default.createElement('img', { src: './img/main.png', id: 'logo' })
 				),
 				_react2.default.createElement(
 					'div',
