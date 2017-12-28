@@ -26333,7 +26333,7 @@ var Q2of1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q3of1' },
-							'\u53CB\u9054'
+							_react2.default.createElement('img', { src: './img/btn4.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26342,7 +26342,7 @@ var Q2of1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q3of2' },
-							'\u4E00\u4EBA'
+							_react2.default.createElement('img', { src: './img/btn5.png' })
 						)
 					)
 				)
@@ -26421,7 +26421,7 @@ var Q2of2 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q3of3' },
-							'\u30A4\u30F3\u30C9\u30A2'
+							_react2.default.createElement('img', { src: './img/btn10.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26430,7 +26430,7 @@ var Q2of2 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q3of4' },
-							'\u30A2\u30A6\u30C8\u30C9\u30A2'
+							_react2.default.createElement('img', { src: './img/btn11.png' })
 						)
 					)
 				)
@@ -26509,7 +26509,7 @@ var Q3of1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/nogizaka' },
-							'\u30B7\u30E7\u30FC\u30C8\u30B1\u30FC\u30AD'
+							_react2.default.createElement('img', { src: './img/btn6.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26518,7 +26518,7 @@ var Q3of1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u30C1\u30E7\u30B3\u30B1\u30FC\u30AD'
+							_react2.default.createElement('img', { src: './img/btn7.png' })
 						)
 					)
 				)
@@ -26597,7 +26597,7 @@ var Q3of2 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u30D3\u30FC\u30D5'
+							_react2.default.createElement('img', { src: './img/btn8.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26606,7 +26606,7 @@ var Q3of2 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u30D5\u30A3\u30C3\u30B7\u30E5'
+							_react2.default.createElement('img', { src: './img/btn9.png' })
 						)
 					)
 				)
@@ -26685,7 +26685,7 @@ var Q3of3 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u590F'
+							_react2.default.createElement('img', { src: './img/btn12.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26694,7 +26694,7 @@ var Q3of3 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u51AC'
+							_react2.default.createElement('img', { src: './img/btn13.png' })
 						)
 					)
 				)
@@ -26773,7 +26773,7 @@ var Q3of4 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u5165\u308C\u308B'
+							_react2.default.createElement('img', { src: './img/btn14.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26782,7 +26782,7 @@ var Q3of4 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/' },
-							'\u5165\u308C\u306A\u3044'
+							_react2.default.createElement('img', { src: './img/btn15.png' })
 						)
 					)
 				)
