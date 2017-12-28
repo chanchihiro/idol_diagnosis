@@ -26167,7 +26167,7 @@ var Q1 = function (_React$Component) {
 					_react2.default.createElement(
 						_reactRouterDom.Link,
 						{ className: 'question_button_text', to: '/' },
-						'TOP\u3078\u623B\u308B'
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
 					)
 				)
 			);

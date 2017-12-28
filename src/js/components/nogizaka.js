@@ -10,7 +10,7 @@ class Q1 extends React.Component {
 				<h2>あなたに合ったアイドルは...</h2>
 				<p className="question_e">乃木坂46</p>
 				<img src="./img/nogizaka.jpg" className="idol_img" />
-				<button className="question_button"><Link className="question_button_text" to="/">TOPへ戻る</Link></button>
+				<button className="question_button"><Link className="question_button_text" to="/"><img src="./img/btn_top.png" /></Link></button>
 			</div>
 		)
 	}
