@@ -26245,7 +26245,7 @@ var Q1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q2of1' },
-							'\u5C71'
+							_react2.default.createElement('img', { src: './img/btn2.png' })
 						)
 					),
 					_react2.default.createElement(
@@ -26254,7 +26254,7 @@ var Q1 = function (_React$Component) {
 						_react2.default.createElement(
 							_reactRouterDom.Link,
 							{ className: 'question_button_text', to: '/Q2of2' },
-							'\u5DDD'
+							_react2.default.createElement('img', { src: './img/btn3.png' })
 						)
 					)
 				)

@@ -241,18 +241,24 @@ body {
           margin: 60px auto;
           background-color: rgba(0, 0, 0, 0.8);
           border-radius: 4px;
-          border: 2px #fff solid; }
+          border: 2px #fff solid;
+          background-image: radial-gradient(rgba(0, 0, 0, 0.3) 20%, transparent 0), radial-gradient(rgba(0, 0, 0, 0.3) 20%, transparent 0);
+          background-position: 0 0, 10px 10px;
+          background-size: 20px 20px; }
           body #main .inner_q h2 {
             text-align: center;
+            text-shadow: #2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
             color: #fff;
             margin-top: 16px; }
           body #main .inner_q .question_e {
             color: #fff;
+            text-shadow: #2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
             text-align: center;
             margin-top: 16px;
             font-size: 14px; }
           body #main .inner_q .question_j {
             color: #fff;
+            text-shadow: #2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
             text-align: center;
             font-size: 12px;
             margin-bottom: 30px; }
@@ -261,21 +267,14 @@ body {
             margin: 0 auto;
             margin-bottom: 30px; }
             body #main .inner_q .buttons .question_button {
-              width: 100px;
-              background-color: #f2f700;
+              width: 100%;
+              display: inline-block;
               margin-top: 8px;
-              padding: 12px 0px;
-              border-radius: 4px;
-              border: none;
-              margin-right: 20px; }
+              border: none; }
+              body #main .inner_q .buttons .question_button img {
+                width: 100%; }
               body #main .inner_q .buttons .question_button:last-child {
                 margin-right: 0; }
-            body #main .inner_q .buttons .question_button_text {
-              text-decoration: none;
-              color: #000;
-              font-size: 20px;
-              font-weight: bold;
-              padding: 16px 0px; }
         body #main .goal {
           width: 320px;
           height: 400px;
