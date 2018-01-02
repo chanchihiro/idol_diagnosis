@@ -18,6 +18,11 @@ button{
         appearance: none;
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 body {
 	font-size: 14px;
 	background-color: #000;
@@ -60,6 +65,8 @@ body {
 		display: none;
 		@include max-screen($breakpoint-mobile) {
 			display: block;
+			transition: 1s;
+			animation: fadeIn 2s ease 0s 1 normal;
 			font-size: 12px;
 			overflow: hidden;
 			background-image: url(../img/bg_idol.png);
@@ -133,6 +140,7 @@ body {
 				width: 320px;
 				height: 340px;
 				margin: auto ;
+				animation: fadeIn 1s ease 0s 1 normal;
 				left: 0;
 				right: 0;
 				top: 0;
@@ -143,6 +151,7 @@ body {
 				border-radius: 2px;
 				border: 2px #7cffc3 solid;
 				position: absolute;
+				transition: 1s;
 				h2 {
 					text-align: center;
 					text-shadow:#2bea92 1px 1px 10px, #2bea92 -1px 1px 10px;
@@ -207,6 +216,7 @@ body {
 				border: 2px #7cffc3 solid;
 				text-align: center;
 				position: relative;
+				animation: fadeIn 2s ease 0s 1 normal;
 				h2 {
 					text-align: center;
 					color: #fff;
