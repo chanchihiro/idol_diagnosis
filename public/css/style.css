@@ -222,7 +222,8 @@ body {
             body #main #about #about_text .text_english {
               margin-bottom: 24px; }
             body #main #about #about_text .text_japan {
-              font-weight: bold; }
+              font-weight: normal;
+              line-height: 1.8; }
             body #main #about #about_text .text_contact {
               margin-bottom: 20px; }
             body #main #about #about_text a {
@@ -238,7 +239,7 @@ body {
           text-align: center; }
           body #main .inner_top #logo {
             width: 94%;
-            margin-top: 5rem; }
+            margin-top: 4.5rem; }
           body #main .inner_top #start {
             text-align: center;
             width: 180px;
