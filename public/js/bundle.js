@@ -27271,8 +27271,10 @@ var _App2 = _interopRequireDefault(_App);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.onload = function () {
+var loading = document.getElementById("loading");
 
+window.onload = function () {
+	loading.classList.add("none");
 	_reactDom2.default.render(_react2.default.createElement(
 		_reactRouterDom.BrowserRouter,
 		null,
