@@ -12,7 +12,7 @@ class Q3of1 extends React.Component {
 				<p className="question_j">ケーキといえば？</p>
 				<div className="buttons">
 					<button className="question_button"><Link className="question_button_text" to="/nogizaka"><img src="./img/btn6.png" /></Link></button>
-					<button className="question_button"><Link className="question_button_text" to="/"><img src="./img/btn7.png" /></Link></button>
+					<button className="question_button"><Link className="question_button_text" to="/linq"><img src="./img/btn7.png" /></Link></button>
 				</div>
 			</div>
 		)

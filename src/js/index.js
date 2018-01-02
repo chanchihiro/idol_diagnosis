@@ -6,6 +6,7 @@ import App from './components/App';
 
 
 window.onload = function () {
+	
 	ReactDOM.render(
 	  <BrowserRouter>
 	    <App />

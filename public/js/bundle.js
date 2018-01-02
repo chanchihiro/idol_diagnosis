@@ -26015,6 +26015,30 @@ var _nogizaka = require('./nogizaka');
 
 var _nogizaka2 = _interopRequireDefault(_nogizaka);
 
+var _linq = require('./linq');
+
+var _linq2 = _interopRequireDefault(_linq);
+
+var _negi = require('./negi');
+
+var _negi2 = _interopRequireDefault(_negi);
+
+var _shachihoko = require('./shachihoko');
+
+var _shachihoko2 = _interopRequireDefault(_shachihoko);
+
+var _fruity = require('./fruity');
+
+var _fruity2 = _interopRequireDefault(_fruity);
+
+var _takoyaki = require('./takoyaki');
+
+var _takoyaki2 = _interopRequireDefault(_takoyaki);
+
+var _kamonegi = require('./kamonegi');
+
+var _kamonegi2 = _interopRequireDefault(_kamonegi);
+
 var _reactTransitionGroup = require('react-transition-group');
 
 var _reactTransitionGroup2 = _interopRequireDefault(_reactTransitionGroup);
@@ -26036,14 +26060,92 @@ var Main = function Main() {
       _react2.default.createElement(_reactRouterDom.Route, { path: '/q3of2', component: _q3of4.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/q3of3', component: _q3of6.default }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/q3of4', component: _q3of8.default }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/nogizaka', component: _nogizaka2.default })
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/nogizaka', component: _nogizaka2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/linq', component: _linq2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/negikko', component: _negi2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/nogizaka', component: _nogizaka2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/shachihoko', component: _shachihoko2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/fruity', component: _fruity2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/takoyaki', component: _takoyaki2.default }),
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/kamonegi', component: _kamonegi2.default })
     )
   );
 };
 
 exports.default = Main;
 
-},{"./home":236,"./nogizaka":237,"./q1":238,"./q2of1":239,"./q2of2":240,"./q3of1":241,"./q3of2":242,"./q3of3":243,"./q3of4":244,"react":229,"react-router-dom":184,"react-transition-group":201}],236:[function(require,module,exports){
+},{"./fruity":236,"./home":237,"./kamonegi":238,"./linq":239,"./negi":240,"./nogizaka":241,"./q1":242,"./q2of1":243,"./q2of2":244,"./q3of1":245,"./q3of2":246,"./q3of3":247,"./q3of4":248,"./shachihoko":249,"./takoyaki":250,"react":229,"react-router-dom":184,"react-transition-group":201}],236:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Fruity = function (_React$Component) {
+	_inherits(Fruity, _React$Component);
+
+	function Fruity() {
+		_classCallCheck(this, Fruity);
+
+		return _possibleConstructorReturn(this, (Fruity.__proto__ || Object.getPrototypeOf(Fruity)).apply(this, arguments));
+	}
+
+	_createClass(Fruity, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'Fruity'
+				),
+				_react2.default.createElement('img', { src: './img/idol_fruity.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Fruity;
+}(_react2.default.Component);
+
+exports.default = Fruity;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],237:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26108,7 +26210,7 @@ var Home = function (_React$Component) {
 
 exports.default = Home;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],237:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],238:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26135,16 +26237,229 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Q1 = function (_React$Component) {
-	_inherits(Q1, _React$Component);
+var Kamonegi = function (_React$Component) {
+	_inherits(Kamonegi, _React$Component);
 
-	function Q1() {
-		_classCallCheck(this, Q1);
+	function Kamonegi() {
+		_classCallCheck(this, Kamonegi);
 
-		return _possibleConstructorReturn(this, (Q1.__proto__ || Object.getPrototypeOf(Q1)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Kamonegi.__proto__ || Object.getPrototypeOf(Kamonegi)).apply(this, arguments));
 	}
 
-	_createClass(Q1, [{
+	_createClass(Kamonegi, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'KAMO\u304C\u30CD\u30AE\u3092\u3057\u3087\u3063\u3066\u304F\u308B\u30C3!!!'
+				),
+				_react2.default.createElement('img', { src: './img/idol_kamonegi.png', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Kamonegi;
+}(_react2.default.Component);
+
+exports.default = Kamonegi;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],239:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Linq = function (_React$Component) {
+	_inherits(Linq, _React$Component);
+
+	function Linq() {
+		_classCallCheck(this, Linq);
+
+		return _possibleConstructorReturn(this, (Linq.__proto__ || Object.getPrototypeOf(Linq)).apply(this, arguments));
+	}
+
+	_createClass(Linq, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'LinQ'
+				),
+				_react2.default.createElement('img', { src: './img/idol_linq.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Linq;
+}(_react2.default.Component);
+
+exports.default = Linq;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],240:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Negi = function (_React$Component) {
+	_inherits(Negi, _React$Component);
+
+	function Negi() {
+		_classCallCheck(this, Negi);
+
+		return _possibleConstructorReturn(this, (Negi.__proto__ || Object.getPrototypeOf(Negi)).apply(this, arguments));
+	}
+
+	_createClass(Negi, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u30CD\u30AE\u3063\u3053'
+				),
+				_react2.default.createElement('img', { src: './img/idol_negi.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Negi;
+}(_react2.default.Component);
+
+exports.default = Negi;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],241:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Nogizaka = function (_React$Component) {
+	_inherits(Nogizaka, _React$Component);
+
+	function Nogizaka() {
+		_classCallCheck(this, Nogizaka);
+
+		return _possibleConstructorReturn(this, (Nogizaka.__proto__ || Object.getPrototypeOf(Nogizaka)).apply(this, arguments));
+	}
+
+	_createClass(Nogizaka, [{
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(
@@ -26174,12 +26489,12 @@ var Q1 = function (_React$Component) {
 		}
 	}]);
 
-	return Q1;
+	return Nogizaka;
 }(_react2.default.Component);
 
-exports.default = Q1;
+exports.default = Nogizaka;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],238:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],242:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26267,7 +26582,7 @@ var Q1 = function (_React$Component) {
 
 exports.default = Q1;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],239:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],243:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26355,7 +26670,7 @@ var Q2of1 = function (_React$Component) {
 
 exports.default = Q2of1;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],240:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],244:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26443,7 +26758,7 @@ var Q2of2 = function (_React$Component) {
 
 exports.default = Q2of2;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],241:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],245:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26517,7 +26832,7 @@ var Q3of1 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/linq' },
 							_react2.default.createElement('img', { src: './img/btn7.png' })
 						)
 					)
@@ -26531,7 +26846,7 @@ var Q3of1 = function (_React$Component) {
 
 exports.default = Q3of1;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],242:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],246:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26596,7 +26911,7 @@ var Q3of2 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/negikko' },
 							_react2.default.createElement('img', { src: './img/btn8.png' })
 						)
 					),
@@ -26605,7 +26920,7 @@ var Q3of2 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/negikko' },
 							_react2.default.createElement('img', { src: './img/btn9.png' })
 						)
 					)
@@ -26619,7 +26934,7 @@ var Q3of2 = function (_React$Component) {
 
 exports.default = Q3of2;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],243:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],247:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26684,7 +26999,7 @@ var Q3of3 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/shachihoko' },
 							_react2.default.createElement('img', { src: './img/btn12.png' })
 						)
 					),
@@ -26693,7 +27008,7 @@ var Q3of3 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/fruity' },
 							_react2.default.createElement('img', { src: './img/btn13.png' })
 						)
 					)
@@ -26707,7 +27022,7 @@ var Q3of3 = function (_React$Component) {
 
 exports.default = Q3of3;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],244:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],248:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -26772,7 +27087,7 @@ var Q3of4 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/takoyaki' },
 							_react2.default.createElement('img', { src: './img/btn14.png' })
 						)
 					),
@@ -26781,7 +27096,7 @@ var Q3of4 = function (_React$Component) {
 						{ className: 'question_button' },
 						_react2.default.createElement(
 							_reactRouterDom.Link,
-							{ className: 'question_button_text', to: '/' },
+							{ className: 'question_button_text', to: '/kamonegi' },
 							_react2.default.createElement('img', { src: './img/btn15.png' })
 						)
 					)
@@ -26795,7 +27110,149 @@ var Q3of4 = function (_React$Component) {
 
 exports.default = Q3of4;
 
-},{"react":229,"react-dom":46,"react-router-dom":184}],245:[function(require,module,exports){
+},{"react":229,"react-dom":46,"react-router-dom":184}],249:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Shachihoko = function (_React$Component) {
+	_inherits(Shachihoko, _React$Component);
+
+	function Shachihoko() {
+		_classCallCheck(this, Shachihoko);
+
+		return _possibleConstructorReturn(this, (Shachihoko.__proto__ || Object.getPrototypeOf(Shachihoko)).apply(this, arguments));
+	}
+
+	_createClass(Shachihoko, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u30C1\u30FC\u30E0\u3057\u3083\u3061\u307B\u3053'
+				),
+				_react2.default.createElement('img', { src: './img/idol_shachi.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Shachihoko;
+}(_react2.default.Component);
+
+exports.default = Shachihoko;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],250:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _reactRouterDom = require('react-router-dom');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Takoyaki = function (_React$Component) {
+	_inherits(Takoyaki, _React$Component);
+
+	function Takoyaki() {
+		_classCallCheck(this, Takoyaki);
+
+		return _possibleConstructorReturn(this, (Takoyaki.__proto__ || Object.getPrototypeOf(Takoyaki)).apply(this, arguments));
+	}
+
+	_createClass(Takoyaki, [{
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				{ className: 'goal' },
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u3042\u306A\u305F\u306B\u5408\u3063\u305F\u30A2\u30A4\u30C9\u30EB\u306F...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u305F\u3053\u713C\u304D'
+				),
+				_react2.default.createElement('img', { src: './img/idol_takoyaki.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'button',
+					{ className: 'question_button' },
+					_react2.default.createElement(
+						_reactRouterDom.Link,
+						{ className: 'question_button_text', to: '/' },
+						_react2.default.createElement('img', { src: './img/btn_top.png' })
+					)
+				)
+			);
+		}
+	}]);
+
+	return Takoyaki;
+}(_react2.default.Component);
+
+exports.default = Takoyaki;
+
+},{"react":229,"react-dom":46,"react-router-dom":184}],251:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -26815,6 +27272,7 @@ var _App2 = _interopRequireDefault(_App);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 window.onload = function () {
+
 	_reactDom2.default.render(_react2.default.createElement(
 		_reactRouterDom.BrowserRouter,
 		null,
@@ -26822,6 +27280,6 @@ window.onload = function () {
 	), document.getElementById("questions"));
 };
 
-},{"./components/App":233,"react":229,"react-dom":46,"react-router-dom":184}]},{},[245])
+},{"./components/App":233,"react":229,"react-dom":46,"react-router-dom":184}]},{},[251])
 
 //# sourceMappingURL=bundle.js.map

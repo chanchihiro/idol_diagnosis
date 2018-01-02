@@ -9,6 +9,13 @@ import Q3of3 from './q3of3';
 import Q3of4 from './q3of4';
 import Home from './home';
 import Nogizaka from './nogizaka';
+import Linq from './linq';
+import Negi from './negi';
+import Shachihoko from './shachihoko';
+import Fruity from './fruity';
+import Takoyaki from './takoyaki';
+import Kamonegi from './kamonegi';
+
 import CSSTransitionGroup from 'react-transition-group';
 
 
@@ -24,6 +31,13 @@ const Main = () => (
       <Route path="/q3of3" component={Q3of3} />
       <Route path="/q3of4" component={Q3of4} />
       <Route path="/nogizaka" component={Nogizaka} />
+      <Route path="/linq" component={Linq} />
+      <Route path="/negikko" component={Negi} />
+      <Route path="/nogizaka" component={Nogizaka} />
+      <Route path="/shachihoko" component={Shachihoko} />
+      <Route path="/fruity" component={Fruity} />
+      <Route path="/takoyaki" component={Takoyaki} />
+      <Route path="/kamonegi" component={Kamonegi} />
     </Switch>
   </main>
 );

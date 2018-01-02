@@ -11,8 +11,8 @@ class Q3of3 extends React.Component {
 				<p className="question_e">Which do you like</p>
 				<p className="question_j">好きな季節は？</p>
 				<div className="buttons">
-					<button className="question_button"><Link className="question_button_text" to="/"><img src="./img/btn12.png" /></Link></button>
-					<button className="question_button"><Link className="question_button_text" to="/"><img src="./img/btn13.png" /></Link></button>
+					<button className="question_button"><Link className="question_button_text" to="/shachihoko"><img src="./img/btn12.png" /></Link></button>
+					<button className="question_button"><Link className="question_button_text" to="/fruity"><img src="./img/btn13.png" /></Link></button>
 				</div>
 			</div>
 		)
