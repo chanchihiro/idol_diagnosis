@@ -254,7 +254,9 @@ body {
           text-align: center; }
           body #main .inner_top #logo {
             width: 94%;
-            margin-top: 4.5rem; }
+            margin-top: 4.5rem;
+            -webkit-animation: fadeIn 1s ease 0s 1 normal;
+                    animation: fadeIn 1s ease 0s 1 normal; }
           body #main .inner_top #start {
             text-align: center;
             width: 180px;
