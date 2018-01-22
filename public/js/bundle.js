@@ -26475,7 +26475,24 @@ var Nogizaka = function (_React$Component) {
 					{ className: 'question_e' },
 					'\u4E43\u6728\u574246'
 				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_j' },
+					'Nogizaka 46'
+				),
 				_react2.default.createElement('img', { src: './img/nogizaka.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u4E43\u6728\u5742\u3092\u898B\u308B\u306A\u3089...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u6771\u4EAC -Tokyo-'
+				),
+				_react2.default.createElement('p', { className: 'question_j' }),
+				_react2.default.createElement('img', { src: './img/tokyo.png', className: 'idol_img' }),
 				_react2.default.createElement(
 					'button',
 					{ className: 'question_button' },
