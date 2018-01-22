@@ -360,7 +360,7 @@ body {
           body #main .goal .question_button {
             width: 200px;
             bottom: 1rem;
-            margin: 16px auto 0px; }
+            margin: 16px auto 8px; }
             body #main .goal .question_button img {
               width: 100%; }
             body #main .goal .question_button .question_button_text {
