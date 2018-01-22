@@ -26335,6 +26335,18 @@ var Linq = function (_React$Component) {
 				),
 				_react2.default.createElement('img', { src: './img/idol_linq.jpg', className: 'idol_img' }),
 				_react2.default.createElement(
+					'h2',
+					null,
+					'LinQ\u3092\u898B\u308B\u306A\u3089...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u798F\u5CA1 -Fukuoka-'
+				),
+				_react2.default.createElement('p', { className: 'question_j' }),
+				_react2.default.createElement('img', { src: './img/fukuoka.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
 					'button',
 					{ className: 'question_button' },
 					_react2.default.createElement(
@@ -26405,6 +26417,18 @@ var Negi = function (_React$Component) {
 					'\u30CD\u30AE\u3063\u3053'
 				),
 				_react2.default.createElement('img', { src: './img/idol_negi.jpg', className: 'idol_img' }),
+				_react2.default.createElement(
+					'h2',
+					null,
+					'\u30CD\u30AE\u3063\u3053\u3092\u898B\u308B\u306A\u3089...'
+				),
+				_react2.default.createElement(
+					'p',
+					{ className: 'question_e' },
+					'\u65B0\u6F5F -Niigata-'
+				),
+				_react2.default.createElement('p', { className: 'question_j' }),
+				_react2.default.createElement('img', { src: './img/niigata.jpg', className: 'idol_img' }),
 				_react2.default.createElement(
 					'button',
 					{ className: 'question_button' },
