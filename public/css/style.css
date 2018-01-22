@@ -331,7 +331,7 @@ body {
                 margin-right: 0; }
         body #main .goal {
           width: 320px;
-          margin: 60px auto;
+          margin: 20px auto;
           background-image: linear-gradient(135deg, rgba(121, 241, 164, 0.7) 10%, rgba(14, 92, 173, 0.7) 100%);
           background-color: rgba(0, 0, 0, 0.4);
           box-shadow: #2bea92 0px 0px 25px 3px;
@@ -344,12 +344,12 @@ body {
           body #main .goal h2 {
             text-align: center;
             color: #fff;
-            margin-top: 16px; }
+            margin-top: 14px; }
           body #main .goal .question_e {
             color: #fff;
             text-align: center;
             margin-top: 2px;
-            font-size: 20px; }
+            font-size: 16px; }
           body #main .goal .question_j {
             color: #fff;
             text-align: center;
@@ -360,7 +360,7 @@ body {
           body #main .goal .question_button {
             width: 200px;
             bottom: 1rem;
-            margin: 16px auto 8px; }
+            margin: 16px auto 0px; }
             body #main .goal .question_button img {
               width: 100%; }
             body #main .goal .question_button .question_button_text {
